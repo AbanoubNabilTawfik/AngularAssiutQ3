@@ -1,0 +1,23 @@
+<!-- <h2 *ngIf="false">
+    Hello ITI
+</h2>
+
+<h2 *ngIf="displayName">
+    Abanoub Nabil
+</h2> -->
+
+<div *ngIf="isLoggedIn ; then thenBlock; else elseBlock "></div>
+
+
+<ng-template #elseBlock>
+    <h2>
+        Welecome guest
+    </h2>
+</ng-template>
+
+<ng-template #thenBlock>
+    <h2>
+        Welcome {{fullName}}
+    </h2>
+</ng-template>
+

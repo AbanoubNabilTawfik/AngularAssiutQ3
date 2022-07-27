@@ -1,0 +1,46 @@
+<p>pipes works!</p>
+
+<h2>{{fullName}}</h2>
+<h2>{{fullName |lowercase}}</h2>
+<h2>{{fullName |uppercase}}</h2>
+<h2>{{fullName |titlecase}}</h2>
+
+<h2>{{fullName | slice:3|uppercase}}</h2>
+<h2>{{fullName | slice:3:5}}</h2>
+
+
+
+<h2>{{2.678 | number:'1.2-3'}}</h2> 
+
+<h2>{{2.678 | number:'3.4-5'}}</h2>
+
+<h2>{{2.678 |number :'3.1-2'}}</h2>
+
+<h2>{{22.678 | number:'1.2-3'}} </h2>
+
+<h2>{{0.25 |percent}}</h2>
+
+<h2>{{0.25 |currency}}</h2>
+
+<h2>{{0.25 |currency :'EUR'}}</h2>
+
+<h2>{{0.25 |currency :'GBP'}}</h2>
+
+<h2>{{currentDate}}</h2>
+
+<h2>{{currentDate | date:'short'}}</h2>
+
+<h2>{{currentDate | date: 'shortDate' }}</h2>
+
+<h2>{{currentDate | date: 'shortTime' }}</h2>
+
+<h2>{{currentDate | date: 'medium'}}</h2>
+
+<h2>{{currentDate | date :'mediumDate'}}</h2>
+
+<h2>{{currentDate | date :'mediumTime'}}</h2>
+
+
+<!-- function (value , ...args) -->
+
+<h2>{{ 10 | square:5:9}}</h2>

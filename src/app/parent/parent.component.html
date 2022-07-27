@@ -1,0 +1,4 @@
+<p>parent works!</p>
+<app-child (childEvent)="dataFromChild=$event" [parentData]="fullName" [personAge]="age"></app-child>
+
+{{dataFromChild}}
