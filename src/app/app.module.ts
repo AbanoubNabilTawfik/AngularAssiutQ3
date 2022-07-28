@@ -31,6 +31,7 @@ import { DepartmentDetailsComponent } from './department-details/department-deta
 import { OverviewComponent } from './overview/overview.component';
 import { ContactComponent } from './contact/contact.component';
 import { AuthModule } from 'src/auth/auth.module';
+import { TdfComponent } from './tdf/tdf.component';
 
 @NgModule({
   declarations: [
@@ -59,7 +60,8 @@ import { AuthModule } from 'src/auth/auth.module';
     PageNotFoundComponent,
     DepartmentDetailsComponent,
     OverviewComponent,
-    ContactComponent
+    ContactComponent,
+    TdfComponent
   ],
   imports: [
     BrowserModule,
